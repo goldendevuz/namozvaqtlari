@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+.envrc
+.python-version
+
+# Environment and secrets
+.env
+*.env
+
+# Cache and tooling
+.mypy_cache/
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local databases and runtime data
+/data/*.sqlite3
+/data/*.db
+/data/*.sqlite
+
+# Jupyter
+.ipynb_checkpoints/
